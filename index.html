@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Clima</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4764fd1f18.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Ciudad..." spellcheck="false">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="error">
+            <img src="images/not-found.png">
+            <p>Vaya... parece que esta ciudad no existe.</p>
+        </div>
+        <div class="weather">
+            <img src="images/clouds.png" class="weather-icon">
+            <h1 class="temp">22°c</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div class="col">
+                    <i class="detail-icon fa-solid fa-water"></i>
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humedad</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <i class="detail-icon fa-solid fa-wind"></i>
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Velocidad del viento</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
